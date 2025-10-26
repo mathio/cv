@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matej Lednicky</title>
+    <style>
+      body {
+        font-family:
+          -apple-system, "system-ui", "Segoe UI", "Noto Sans", Helvetica, Arial,
+          sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #1f2328;
+        display: relative;
+        max-width: 780px;
+        margin: auto;
+        padding: 1em;
+      }
+      a {
+        color: #0969da;
+        text-decoration: underline;
+      }
+      /*a:visited {
+        color: #8250df;
+      }*/
+      .heading {
+        position: relative;
+      }
+      h1 {
+        font-size: 2em;
+      }
+      h2 {
+        font-size: 1.5em;
+      }
+      h3 {
+        font-size: 1.25em;
+      }
+      @media (max-width: 400px) {
+        body {
+          font-size: 14px;
+        }
+      }
+      h1,
+      h2 {
+        border-bottom: 1px #d1d9e0b3 solid;
+        padding-bottom: 0.3em;
+      }
+      h1 a,
+      h2 a,
+      h3 a {
+        text-decoration: none;
+      }
+      a.anchor {
+        display: block;
+        width: 42px;
+        height: 28px;
+        text-decoration: none;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: -42px;
+        transform: translateY(-50%);
+        opacity: 0;
+      }
+      a.anchor::before {
+        content: "🔗";
+      }
+      a.anchor:hover {
+        opacity: 0.6;
+      }
+      h1:hover + a.anchor,
+      h2:hover + a.anchor,
+      h3:hover + a.anchor {
+        opacity: 0.6;
+      }
+      a.download {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        border-radius: 6px;
+        padding: 6px 12px;
+        text-decoration: none;
+        color: #fff;
+        background: #444;
+        border: 1px #444 solid;
+      }
+      a.download:hover {
+        opacity: 0.8;
+      }
+      a.download span {
+        display: inline-block;
+        margin-right: 4px;
+      }
+      @media (max-width: 870px) {
+        a.anchor {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <article>{{content}}</article>
+  </body>
+</html>

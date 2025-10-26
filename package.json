@@ -4,14 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "format": "prettier --write \"**/*.{js,ts,tsx,json,css,md}\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --write \"**/*.{json,ts,md,html}\"",
+    "build": "pnpm build-html && pnpm format",
+    "build-html": "ts-node --project ./tsconfig.json ./scripts/md-to-html.ts"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Matej Lednicky",
+  "license": "MIT",
   "packageManager": "pnpm@10.12.1",
   "devDependencies": {
-    "prettier": "^3.6.2"
+    "@types/node": "^20.19.23",
+    "marked": "^5.1.1",
+    "prettier": "^3.6.2",
+    "@types/marked": "^6.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.5.1"
   }
 }
