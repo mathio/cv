@@ -5,19 +5,21 @@
   "main": "index.js",
   "scripts": {
     "format": "prettier --write \"**/*.{json,ts,md,html}\"",
-    "build": "pnpm build-html && pnpm format",
-    "build-html": "ts-node --project ./tsconfig.json ./scripts/md-to-html.ts"
+    "build": "pnpm build:html && pnpm format && pnpm build:pdf",
+    "build:html": "ts-node --project ./tsconfig.json ./scripts/md-to-html.ts",
+    "build:pdf": "ts-node ./scripts/html-to-pdf.ts ./cv/cv.html ./cv/cv.pdf"
   },
   "keywords": [],
   "author": "Matej Lednicky",
   "license": "MIT",
   "packageManager": "pnpm@10.12.1",
   "devDependencies": {
+    "@types/marked": "^6.0.0",
     "@types/node": "^20.19.23",
     "marked": "^5.1.1",
     "prettier": "^3.6.2",
-    "@types/marked": "^6.0.0",
-    "ts-node": "^10.9.1",
+    "puppeteer": "^21.3.0",
+    "ts-node": "^10.9.2",
     "typescript": "^5.5.1"
   }
 }
