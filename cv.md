@@ -51,8 +51,8 @@ I am a fullstack software engineer, frontend leaning. I solve complex technical 
 - Led architecture and development of core platform features used by millions of users:
   - Built and maintained open-source libraries: [Embed SDK](https://github.com/typeform/embed), [Button for creator experience](https://github.com/typeform/button)
   - Owned redesign of [share panel](https://help.typeform.com/hc/en-us/articles/360029252892-Share-your-form), improving UX and engagement metrics
-  - Improving respondent experience across various devices, 3rd party services (embeds) and platforms
-  - integration with 3rd party SaaS, eg. [Webflow](https://webflow.com/apps/detail/typeform)
+  - Improved respondent experience across devices and 3rd party platforms (embeds)
+  - Built integrations with 3rd party SaaS, eg. [Webflow](https://webflow.com/apps/detail/typeform)
   - Participated on delivering the "multiple questions per page" feature, touching all parts of the platform
   - Led reCAPTCHA integration in the platform, enhancing security for all forms
 - Supported developer community via [public developer docs](https://www.typeform.com/developers/community/) and [embed SDK initiatives](https://github.com/mathio/typeform-embed)
@@ -63,19 +63,19 @@ I am a fullstack software engineer, frontend leaning. I solve complex technical 
 
 - Joined as a member of volunteer team
 - Contributed to development and release of first version of [priznanie.digital](https://github.com/slovensko-digital/priznanie-digital) app in Next.js to facilitate filing tax return for self-employed professionals
-- Let the development of second version with legislation updates for next year
+- Led the development of second version with legislation updates for subsequent year
 
 ### Senior Software Engineer II - [GoHealth](https://www.gohealth.sk/) (2011 - 2019)
 
 - Architecture and development of proprietary web-based software for:
-  - Sales of health insurance to consumers integrated with in-house and 3rd party APIs via [gohealth.com](http://gohealth.com) and other websites
-  - Customer acquisition with support for rapid experimenting
+  - Delivered web apps to support sale of health insurance to US customers integrated with in-house and 3rd party APIs
+  - Built infrastructure for rapid experimenting to support lead generation
 - Member of and leader of a distributed development team based in USA (Chicago) and Slovakia (Bratislava)
 
 ### Web Developer - [FAT CHILLI](https://fatchillimedia.com/) (2010 - 2011)
 
 - Management of the development team delivering custom web solution for multinational clothing brand, communication with clients’ office in UK
-- Development of high traffic Slovak real-estate advertising portals (now part of larger [nehnutelnosti.sk](http://nehnutelnosti.sk))
+- Development of high traffic Slovak real-estate advertising portals and related back office software
 
 ### Web Developer - [Elite Solutions](https://www.eliteml.sk/) (2008 - 2010)
 
@@ -83,16 +83,15 @@ I am a fullstack software engineer, frontend leaning. I solve complex technical 
 
 ### Junior Web Developer - [Global Services Slovakia](https://www.gsgroup.sk/) (2004 - 2006)
 
-- Development of web portal (think local Yahoo) providing various services
+- Gained first professional experience with web development
 
 ## Open-source side projects
 
 - [Runner Cleanup Action](https://github.com/mathio/gha-cleanup) (2025) - GitHub Action to reclaim disk space on CI/CD runners
 - [New Tab Page Bookmarks](https://github.com/mathio/chrome-new-tab-page-bookmarks) (2022) - Browser extension to manage bookmarks on New Tab page
 - [dbackup](https://github.com/mathio/dbackup) (2022) - PostgreSQL cloud backup and restore tool with web UI
-- [Le Word / Hadaj Slovo](https://github.com/mathio/hadaj-slovo) (2022) - Famous Wordle game in multiple languages, built in Next.js
-- [Conway's Game of Life](https://github.com/mathio/game-of-life) - My implementation of the zero-player game in Javascript
-- [next-api](https://github.com/mathio/next-api) (2020) - The "no API" API for fast prototyping of Next.js frontends
+- [Conway's Game of Life](https://github.com/mathio/game-of-life) (2022) - Javascript implementation of the zero-player game
+- [next-api](https://github.com/mathio/next-api) (2020) - Content REST APIs for fast prototyping of Next.js frontends
 
 ## Education
 
