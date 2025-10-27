@@ -4,7 +4,7 @@ import { marked } from "marked";
 
 // Disable deprecated behaviors that mangle email addresses and add header ids.
 // We disable mangle so email addresses are not obfuscated into entities.
-marked.setOptions({ mangle: false, headerIds: false });
+marked.setOptions({ headerIds: false });
 
 const root = path.resolve(__dirname, "..");
 const templatePath = path.join(__dirname, "template.html");
