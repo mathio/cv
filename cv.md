@@ -19,7 +19,7 @@ I am a fullstack software engineer, frontend leaning. I solve complex technical 
 
 ## Skills and tech stack
 
-- Javascript (Typescript, Vanilla Javascript, Node.js, React, Redux, Next.js, React Router / Remix.js, Vite, Webpack, Unplugin, Chrome extension, Vue.js)
+- Javascript (Typescript, Vanilla Javascript, Node.js, React, Redux, Next.js, React Router / Remix.js, Vite, Webpack, Unplugin, Chrome extension, Apollo GraphQL, Vue.js)
 - Frontend development (HTML 5, CSS, Sass, Tailwind)
 - Software testing (Jest, Vitest, Playwright, Cypress)
 - SQL databases (PostgreSQL, MySQL, Prisma ORM, Supabase)
